@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test User Component render users in user component with empty search term 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      data-testid="users-list"
+    >
+      <p>
+        <strong>
+          Dipesh
+        </strong>
+      </p>
+      <p
+        data-testid="email"
+      >
+        dipesh@gmail.com
+      </p>
+      <img
+        alt="1"
+        src="dipesh.jpg"
+      />
+    </div>
+    <div
+      data-testid="users-list"
+    >
+      <p>
+        <strong>
+          Nikesh
+        </strong>
+      </p>
+      <p
+        data-testid="email"
+      >
+        nikesh@gmail.com
+      </p>
+      <img
+        alt="2"
+        src="nikesh.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test User Component render users in user component with search term 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      data-testid="users-list"
+    >
+      <p>
+        <strong>
+          Dipesh
+        </strong>
+      </p>
+      <p
+        data-testid="email"
+      >
+        dipesh@gmail.com
+      </p>
+      <img
+        alt="1"
+        src="dipesh.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
